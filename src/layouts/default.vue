@@ -1,11 +1,15 @@
 <template>
-  <v-main>
-    <router-view />
-  </v-main>
+  <AppHeader />
+
+    <v-main>
+      <v-container>
+        <router-view />
+      </v-container>
+    </v-main>
 
   <AppFooter />
 </template>
 
 <script lang="ts" setup>
-  //
+//
 </script>
